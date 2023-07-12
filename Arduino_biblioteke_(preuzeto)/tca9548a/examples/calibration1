@@ -1,0 +1,27 @@
+#include <Arduino.h>
+#include "pwmAdhIf.h"
+
+pwmAdhIf adhesionSystem;
+int tempThr = 1000;
+int tempArr[6] = {tempThr, tempThr, tempThr, tempThr, tempThr, tempThr};
+bool enableFlag = false;
+
+void setup() {
+  Serial.begin(115200);
+  // wait for serial port to open on native usb devices
+  while (!Serial) {
+    delay(1);
+  }
+  adhesionSystem.calibrateESC();
+}
+
+void loop() {
+
+  Serial.print("CalibrationOver");
+  while (true)
+  {
+    ;
+  }
+  
+
+}

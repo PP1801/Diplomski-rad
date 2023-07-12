@@ -1,0 +1,59 @@
+#include <Arduino.h>
+#include "pwmAdhIf.h"
+
+pwmAdhIf adhesionSystem;
+int tempThr = 1000;
+int tempArr[6] = {tempThr, tempThr, tempThr, tempThr, tempThr, tempThr};
+bool enableFlag = false;
+
+void setup() {
+  Serial.begin(115200);
+  // wait for serial port to open on native usb devices
+  while (!Serial) {
+    delay(1);
+  }
+  adhesionSystem.init();
+  adhesionSystem.enableAllMotors();
+  Serial.println("Ready");
+}
+
+void loop() {
+
+  if(Serial.available())
+  {
+    char temp = Serial.read();
+
+    if(temp == 'u' && enableFlag == true)
+    {
+      tempThr += 10;
+    }
+    else if(temp == 'd' && enableFlag == true)
+    {
+      tempThr -= 10;
+    }
+    else if(temp == 'x')
+    {
+      tempThr = 1000;
+      adhesionSystem.softSafetyStop();
+    }
+    else if(temp == 'q')
+    {
+      enableFlag = false;
+      tempThr = 1000;
+      adhesionSystem.disableAllMotors();
+    }
+    else if(temp == 'e')
+    {
+      enableFlag = true;
+      adhesionSystem.enableAllMotors();
+    }
+
+
+  }
+  for(int i = 0; i < 6; i++)
+  {
+    tempArr[i] = tempThr;
+  }
+  if(enableFlag == true)  adhesionSystem.setThrust(tempArr);
+  delay(50);
+}
