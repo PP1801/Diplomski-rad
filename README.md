@@ -17,7 +17,7 @@ U ovom radu napravljena je nadogradnja postojećeg prototipa sigurnosnog robota 
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/PP1801/Diplomski-rad/main/slike_temp/sink_3000.jpg" width="520px"></p>
 <br>
-<b></b>&nbsp;&nbsp;Nagib enkodera i upravljački napon bržeg robota, relativna razlika pozicija
+<b></b>&nbsp;&nbsp;Nagib enkodera i upravljački napon bržeg robota (R2), relativna razlika pozicija
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/PP1801/Diplomski-rad/main/slike_temp/sink_3000_b_1.jpg" width="520px"></p>
 <br>
