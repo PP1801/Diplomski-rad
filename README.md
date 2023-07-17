@@ -3,5 +3,5 @@ U ovom radu napravljena je nadogradnja postojećeg prototipa sigurnosnog robota 
 
 <b>Step 1.</b>&nbsp;&nbsp;Creating the dataset
 <br>
-<p align="center"><img src="https://raw.githubusercontent.com/PP1801/slike_temp/images%20for%20GitHub/IMG_20230703_124657_c.jpg" width="420px"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/PP1801/slike_temp/IMG_20230703_124657_c.jpg" width="420px"></p>
 <br>
