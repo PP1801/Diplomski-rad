@@ -6,7 +6,13 @@ U ovom radu napravljena je nadogradnja postojećeg prototipa sigurnosnog robota 
 <p align="center"><img src="https://raw.githubusercontent.com/PP1801/Diplomski-rad/main/slike_temp/IMG_20230703_124657_c.jpg" width="520px"></p>
 <br>
 
-<b></b>&nbsp;&nbsp;Dva robota na horizontalnom ispitnom postavu
+<b></b>&nbsp;&nbsp;Razvedeni prikaz robotskog sustava, princip sinkronizacije gibanja mjerenjem nagiba čeličnog užeta i usporavanjem pojedinih robota
+<br>
+<p align="center"><img src="https://raw.githubusercontent.com/PP1801/Diplomski-rad/main/slike_temp/sinkronizacija.png" width="520px"></p>
+<br>
+
+<b></b>&nbsp;&nbsp;Verifikacija sinkronizacije dva robota na horizontalnom ispitnom postavu
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/PP1801/Diplomski-rad/main/slike_temp/IMG_20230709_184751.jpg" width="520px"></p>
 <br>
+
