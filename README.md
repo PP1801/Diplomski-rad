@@ -16,3 +16,19 @@ U ovom radu napravljena je nadogradnja postojećeg prototipa sigurnosnog robota 
 <p align="center"><img src="https://raw.githubusercontent.com/PP1801/Diplomski-rad/main/slike_temp/IMG_20230709_184751.jpg" width="520px"></p>
 <br>
 
+<b></b>&nbsp;&nbsp;Mjereni pozicije prema _OptiTrack_-u (crna), senzoru optičkog pomaka (plava) i prema enkoderu (crvena)__
+<br>
+<p align="center"><img src="https://raw.githubusercontent.com/PP1801/Diplomski-rad/main/slike_temp/sink_3000.jpg" width="520px"></p>
+<br>
+
+<b></b>&nbsp;&nbsp;Nagib enkodera i upravljački napon bržeg robota, relativna razlika pozicija
+<br>
+<p align="center"><img src="https://raw.githubusercontent.com/PP1801/Diplomski-rad/main/slike_temp/sink_3000_b_1.jpg" width="520px"></p>
+<br>
+
+<b></b>&nbsp;&nbsp;Najbolja izmjerena razlika pozicija kroz vrijeme
+<br>
+<p align="center"><img src="https://raw.githubusercontent.com/PP1801/Diplomski-rad/main/slike_temp/sink_3000_c.jpg" width="520px"></p>
+<br>
+
+
