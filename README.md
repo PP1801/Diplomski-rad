@@ -5,28 +5,23 @@ U ovom radu napravljena je nadogradnja postojećeg prototipa sigurnosnog robota 
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/PP1801/Diplomski-rad/main/slike_temp/IMG_20230703_124657_c.jpg" width="520px"></p>
 <br>
-
 <b></b>&nbsp;&nbsp;Razvedeni prikaz robotskog sustava, princip sinkronizacije gibanja mjerenjem nagiba čeličnog užeta i usporavanjem pojedinih robota
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/PP1801/Diplomski-rad/main/slike_temp/sinkronizacija.png" width="520px"></p>
 <br>
-
 <b></b>&nbsp;&nbsp;Verifikacija sinkronizacije dva robota na horizontalnom ispitnom postavu
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/PP1801/Diplomski-rad/main/slike_temp/IMG_20230709_184751.jpg" width="520px"></p>
 <br>
-
-<b></b>&nbsp;&nbsp;Mjereni pozicije prema _OptiTrack_-u (crna), senzoru optičkog pomaka (plava) i prema enkoderu (crvena)__
+<b></b>&nbsp;&nbsp;Mjereni pozicije prema _OptiTrack_-u (crna), senzoru optičkog pomaka (plava) i prema enkoderu (crvena), te upravljački naponi robota R1 i R2
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/PP1801/Diplomski-rad/main/slike_temp/sink_3000.jpg" width="520px"></p>
 <br>
-
 <b></b>&nbsp;&nbsp;Nagib enkodera i upravljački napon bržeg robota, relativna razlika pozicija
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/PP1801/Diplomski-rad/main/slike_temp/sink_3000_b_1.jpg" width="520px"></p>
 <br>
-
-<b></b>&nbsp;&nbsp;Najbolja izmjerena razlika pozicija kroz vrijeme
+<b></b>&nbsp;&nbsp;Rezultat najbolje sinkronizacije
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/PP1801/Diplomski-rad/main/slike_temp/sink_3000_c.jpg" width="520px"></p>
 <br>
